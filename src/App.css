@@ -46,3 +46,12 @@ body {
   border-radius: 50%;
   position: relative;
 }
+
+.font-weight-bold.row + div.row > * {
+  max-width: initial;
+}
+
+.font-weight-bold.row + div.row > img {
+  padding-left: 0px;
+  padding-top: 5px;
+}

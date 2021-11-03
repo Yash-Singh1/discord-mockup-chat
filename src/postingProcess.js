@@ -20,7 +20,16 @@ bully: can u tell me about the battle at bunkers hill, because I need to make a 
 nerd: sure
 wait 1000
 nerd: cuz i am a nerd and i know everything
-
+wait 1000
+bully: img480x400 https://media2.giphy.com/media/1WHAlOdc9ZNUZq85JI/giphy.gif
+wait 500
+nerd: so basically what happened is the british took over boston
+wait 1000
+bully: ok
+wait 500
+nerd: and the colonists didn't like that
+wait 500
+nerd: so the colonists tried to beseige boston
 `;
 
 export default chat;

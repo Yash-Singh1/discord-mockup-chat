@@ -1,7 +1,7 @@
 import { Row, Col } from 'react-bootstrap';
 import getpfp from './getpfp';
 
-function Message({ text, author }) {
+function Message({ text, author, image, width, height }) {
   return (
     <Row className="message">
       <Col>
@@ -10,7 +10,7 @@ function Message({ text, author }) {
       </Col>
       <Col>
         <Row className="font-weight-bold">{author}</Row>
-        <Row>{text}</Row>
+        <Row>{text ? text : <img src={image} style={{ width: width + 'px', height: height + 'px' }} />}</Row>
       </Col>
     </Row>
   );

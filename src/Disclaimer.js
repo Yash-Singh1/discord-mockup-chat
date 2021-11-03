@@ -15,7 +15,7 @@ function Disclaimer() {
       <h2>DISCLAIMER</h2>
       <p>
         Note that the mean person is the bully version of Yash and totally isn't the real version of Yash. Please don't come to Yash with complaints
-        on this discord chat, because he is a busy person.
+        on this discord chat, because he is a busy person. Also, these guys can type fast and have good internet, so keep up!
       </p>
       <br />
       <Button onClick={() => setRedirect('/home')}>Get started already!</Button>
