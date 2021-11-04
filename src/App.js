@@ -56,7 +56,7 @@ function App() {
       <Navbar bg="dark" expand="lg">
         <Container>
           <Navbar.Brand to="/home" as={Link} id="navbar-brand">
-            <img src="/847541504914fd33810e70a0ea73177e.ico" id="brand" /> Discord
+            <img src="/847541504914fd33810e70a0ea73177e.ico" id="brand" alt="logo" /> Discord
           </Navbar.Brand>
         </Container>
       </Navbar>
