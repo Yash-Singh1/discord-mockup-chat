@@ -11,7 +11,7 @@ async function wait(ms) {
   await new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function processPosts(dispatch, ban, run) {
+async function processPosts(dispatch, ban, run, el) {
   run(true);
   for (const line of postingProcess
     .trim()
@@ -32,6 +32,7 @@ async function processPosts(dispatch, ban, run) {
         })
       );
     } else if (line === '/ban') {
+      el.value = '';
       dispatch(postMessage({ text: line, author: 'yash bully' }));
       ban(true);
     } else if (line.startsWith('wait')) {
@@ -82,7 +83,7 @@ function App() {
                   const postValue = String(event.target.value);
                   event.target.value = '';
                   dispatch(postMessage({ text: postValue, author: 'me' }));
-                  if (!ran) processPosts(dispatch, ban, run);
+                  if (!ran) processPosts(dispatch, ban, run, event.target);
                 }
               }
         }
