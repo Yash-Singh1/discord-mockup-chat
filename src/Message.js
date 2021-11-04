@@ -9,7 +9,7 @@ function Message({ text, author, image, width, height }) {
         <img src={getpfp(author)} className="pfp" />
       </Col>
       <Col>
-        <Row className="font-weight-bold">{author}</Row>
+        <Row className="fw-bold">{author}</Row>
         <Row>{text ? text : <img src={image} style={{ width: width + 'px', height: height + 'px' }} />}</Row>
       </Col>
     </Row>

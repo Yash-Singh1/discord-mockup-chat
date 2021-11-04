@@ -1,3 +1,13 @@
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  min-height: 100%;
+  position: relative;
+}
+
 #navbar-brand {
   color: white;
   vertical-align: top;
@@ -21,19 +31,25 @@
 body {
   background-color: #282c34;
   color: white;
-  padding-bottom: 100px;
+  box-sizing: content-box;
 }
 
 #chat-container {
   padding: 0 5%;
+  padding-bottom: 100px;
   margin-top: 20px;
 }
 
 #send {
-  position: fixed;
+  position: absolute;
   bottom: 50px;
   left: 5%;
   max-width: 90%;
+}
+
+#send:read-only {
+  cursor: default;
+  box-shadow: none;
 }
 
 .col {
@@ -47,11 +63,11 @@ body {
   position: relative;
 }
 
-.font-weight-bold.row + div.row > * {
+.fw-bold.row + div.row > * {
   max-width: initial;
 }
 
-.font-weight-bold.row + div.row > img {
+.fw-bold.row + div.row > img {
   padding-left: 0px;
   padding-top: 5px;
 }
