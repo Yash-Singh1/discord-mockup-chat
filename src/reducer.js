@@ -2,7 +2,7 @@ import React from 'react';
 import { POST_MESSAGE } from './constants';
 import { combineReducers } from 'redux';
 
-function messages(state = [{ text: 'whats ur name kid?', author: 'bully' }], action) {
+function messages(state = [{ text: 'whats ur name kid?', author: 'yash bully' }], action) {
   switch (action.type) {
     case POST_MESSAGE:
       if (state[state.length - 1].author === action.author) {
