@@ -15,20 +15,20 @@ wait 1000
 bully: ok hi
 wait 200
 nerd: hi
-wait 1000
+wait 1500
 bully: can u tell me about the battle at bunkers hill, because I need to make a project on it and i dunno anything
 nerd: sure
 wait 1000
 nerd: cuz i am a nerd and i know everything
 wait 1000
 bully: img480x400 https://media2.giphy.com/media/1WHAlOdc9ZNUZq85JI/giphy.gif
-wait 500
+wait 3000
 nerd: so basically what happened is the british took over boston
 wait 1000
 bully: ok
-wait 500
+wait 1000
 nerd: and the colonists didn't like that
-wait 500
+wait 1000
 nerd: so the colonists tried to beseige boston
 wait 2000
 nerd: then the brits thought...
@@ -100,7 +100,7 @@ nerd: Deaths for each party
 nerd: British - 1,000+
 nerd: Colonists - 370
 wait 2000
-bully: cool
+bully: brits get wrecked
 wait 1000
 nerd: the brits even lost 92 officers
 wait 1000
@@ -109,6 +109,10 @@ wait 1000
 nerd: the actual battle was fought on breeds hill
 wait 1000
 nerd: but the brits took over Bunker Hill too
+wait 2000
+nerd: overall, i think that its a bad move by brits
+wait 2000
+nerd: they put 2000 on a small group of soldiers in a well built structure
 wait 1000
 bully: thanks, or not cuz i am a bully
 bully: bi

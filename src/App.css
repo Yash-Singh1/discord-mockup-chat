@@ -24,8 +24,16 @@ body {
 
 .message {
   margin-bottom: 20px;
+  padding: 5px;
   white-space: nowrap;
   flex-wrap: nowrap;
+  transition: 0.1s ease-in-out;
+}
+
+.message:hover {
+  border-radius: 10px;
+  background-color: rgb(175 175 175 / 26%);
+  transition: 0.15s ease-in-out;
 }
 
 body {
