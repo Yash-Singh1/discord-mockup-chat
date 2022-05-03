@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import Routing from './Routing';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';

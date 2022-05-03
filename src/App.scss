@@ -1,21 +1,23 @@
 html,
 body {
   height: 100%;
-}
-
-#root {
-  min-height: 100%;
-  position: relative;
+  background-color: #282c34;
+  color: white;
+  box-sizing: content-box;
+  #root {
+    min-height: 100%;
+    position: relative;
+  }  
 }
 
 #navbar-brand {
   color: white;
   vertical-align: top;
-}
 
-#brand {
-  width: 30px;
-  margin-right: 0.25rem;
+  #brand {
+    width: 30px;
+    margin-right: 0.25rem;
+  }  
 }
 
 #brand-text {
@@ -28,18 +30,12 @@ body {
   white-space: nowrap;
   flex-wrap: nowrap;
   transition: 0.1s ease-in-out;
-}
 
-.message:hover {
-  border-radius: 10px;
-  background-color: rgb(175 175 175 / 26%);
-  transition: 0.15s ease-in-out;
-}
-
-body {
-  background-color: #282c34;
-  color: white;
-  box-sizing: content-box;
+  &:hover {
+    border-radius: 10px;
+    background-color: rgb(175 175 175 / 26%);
+    transition: 0.15s ease-in-out;  
+  }
 }
 
 #chat-container {
@@ -53,11 +49,11 @@ body {
   bottom: 50px;
   left: 5%;
   max-width: 90%;
-}
 
-#send:read-only {
-  cursor: default;
-  box-shadow: none;
+  &:read-only {
+    cursor: default;
+    box-shadow: none;  
+  }
 }
 
 .col {
@@ -73,9 +69,9 @@ body {
 
 .fw-bold.row + div.row > * {
   max-width: initial;
-}
 
-.fw-bold.row + div.row > img {
-  padding-left: 0px;
-  padding-top: 5px;
+  &:not(:not(img)) {
+    padding-left: 0px;
+    padding-top: 5px;  
+  }
 }

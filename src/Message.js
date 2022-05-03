@@ -6,7 +6,7 @@ function Message({ text, author, image, width, height }) {
     <Row className="message">
       <Col>
         {' '}
-        <img src={getpfp(author)} className="pfp" alt="pfp" />
+        <img src={getpfp(author)} className="pfp" alt={author} />
       </Col>
       <Col>
         <Row className="fw-bold">{author}</Row>

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { Redirect } from 'react-router';
-import './Disclaimer.css';
+import './Disclaimer.scss';
 
 function Disclaimer() {
   const [redirect, setRedirect] = useState(false);

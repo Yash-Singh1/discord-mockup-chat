@@ -1,7 +1,7 @@
 import { Navbar, Container, FormControl } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import './App.css';
+import './App.scss';
 import Message from './Message';
 import postMessage from './actions';
 import React, { useEffect, useState } from 'react';
@@ -57,7 +57,11 @@ function App() {
       <Navbar bg="dark" expand="lg">
         <Container>
           <Navbar.Brand to="/home" as={Link} id="navbar-brand">
+<<<<<<< HEAD
             <img src="/847541504914fd33810e70a0ea73177e.ico" id="brand" alt="logo" /> Discord
+=======
+            <img src="/847541504914fd33810e70a0ea73177e.ico" id="brand" alt="brand" /> Discord
+>>>>>>> chore: migrate to scss and a11y
           </Navbar.Brand>
         </Container>
       </Navbar>
